@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9A8ABA629B9D95E008ED3D2 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8ABA529B9D95E008ED3D2 /* AccountView.swift */; };
 		A9F47FE629B88321006D5CF4 /* DesignCodeiOS15V2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F47FE529B88321006D5CF4 /* DesignCodeiOS15V2App.swift */; };
 		A9F47FE829B88321006D5CF4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F47FE729B88321006D5CF4 /* ContentView.swift */; };
 		A9F47FEA29B88322006D5CF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9F47FE929B88322006D5CF4 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9A8ABA529B9D95E008ED3D2 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		A9F47FE229B88321006D5CF4 /* DesignCodeiOS15V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeiOS15V2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9F47FE529B88321006D5CF4 /* DesignCodeiOS15V2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeiOS15V2App.swift; sourceTree = "<group>"; };
 		A9F47FE729B88321006D5CF4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				A9F47FE529B88321006D5CF4 /* DesignCodeiOS15V2App.swift */,
 				A9F47FE729B88321006D5CF4 /* ContentView.swift */,
+				A9A8ABA529B9D95E008ED3D2 /* AccountView.swift */,
 				A9F47FF329B8A0CF006D5CF4 /* Styles.swift */,
 				A9F47FE929B88322006D5CF4 /* Assets.xcassets */,
 				A9F47FEB29B88322006D5CF4 /* Preview Content */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A8ABA629B9D95E008ED3D2 /* AccountView.swift in Sources */,
 				A9F47FF429B8A0CF006D5CF4 /* Styles.swift in Sources */,
 				A9F47FE829B88321006D5CF4 /* ContentView.swift in Sources */,
 				A9F47FE629B88321006D5CF4 /* DesignCodeiOS15V2App.swift in Sources */,
