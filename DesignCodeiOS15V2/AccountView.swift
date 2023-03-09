@@ -25,7 +25,6 @@ struct AccountView: View {
             .listStyle(.insetGrouped)
             .navigationTitle("Account")
         }
-        
     }
 }
 
