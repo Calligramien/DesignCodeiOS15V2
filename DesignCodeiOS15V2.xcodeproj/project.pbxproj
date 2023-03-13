@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A931A64529BA5984004765D9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931A64429BA5984004765D9 /* HomeView.swift */; };
+		A934763C29BF88D800A47A3F /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = A934763B29BF88D800A47A3F /* Course.swift */; };
 		A962A6B329BA40EB00634471 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A962A6B229BA40EB00634471 /* TabBar.swift */; };
 		A962A6B529BA461D00634471 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A962A6B429BA461D00634471 /* Tab.swift */; };
 		A9A8ABA629B9D95E008ED3D2 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8ABA529B9D95E008ED3D2 /* AccountView.swift */; };
@@ -26,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		A931A64429BA5984004765D9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A934763B29BF88D800A47A3F /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		A962A6B229BA40EB00634471 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		A962A6B429BA461D00634471 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		A9A8ABA529B9D95E008ED3D2 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 			children = (
 				A962A6B429BA461D00634471 /* Tab.swift */,
 				A9F8E01829BB95C500EC673D /* PreferenceKeys.swift */,
+				A934763B29BF88D800A47A3F /* Course.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				A9EC632229BB8F75005F0A0E /* NavigationBar.swift in Sources */,
 				A9F47FF429B8A0CF006D5CF4 /* Styles.swift in Sources */,
 				A9A8ABAA29B9F8E1008ED3D2 /* BlobView.swift in Sources */,
+				A934763C29BF88D800A47A3F /* Course.swift in Sources */,
 				A9F47FE829B88321006D5CF4 /* ContentView.swift in Sources */,
 				A9EC632029BB8DCC005F0A0E /* FeaturedItem.swift in Sources */,
 				A9F8E01929BB95C500EC673D /* PreferenceKeys.swift in Sources */,
