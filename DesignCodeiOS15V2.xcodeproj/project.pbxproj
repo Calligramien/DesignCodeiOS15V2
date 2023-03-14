@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A931A64529BA5984004765D9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931A64429BA5984004765D9 /* HomeView.swift */; };
 		A934763C29BF88D800A47A3F /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = A934763B29BF88D800A47A3F /* Course.swift */; };
+		A957576029C0894F00C8CAAE /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A957575F29C0894F00C8CAAE /* MatchedView.swift */; };
 		A962A6B329BA40EB00634471 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A962A6B229BA40EB00634471 /* TabBar.swift */; };
 		A962A6B529BA461D00634471 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A962A6B429BA461D00634471 /* Tab.swift */; };
 		A9A8ABA629B9D95E008ED3D2 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A8ABA529B9D95E008ED3D2 /* AccountView.swift */; };
@@ -28,6 +29,7 @@
 /* Begin PBXFileReference section */
 		A931A64429BA5984004765D9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A934763B29BF88D800A47A3F /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		A957575F29C0894F00C8CAAE /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
 		A962A6B229BA40EB00634471 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		A962A6B429BA461D00634471 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		A9A8ABA529B9D95E008ED3D2 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 			children = (
 				A9A8ABA529B9D95E008ED3D2 /* AccountView.swift */,
 				A931A64429BA5984004765D9 /* HomeView.swift */,
+				A957575F29C0894F00C8CAAE /* MatchedView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				A9A8ABA629B9D95E008ED3D2 /* AccountView.swift in Sources */,
 				A9A8ABA829B9F3CC008ED3D2 /* HexagonView.swift in Sources */,
 				A962A6B329BA40EB00634471 /* TabBar.swift in Sources */,
+				A957576029C0894F00C8CAAE /* MatchedView.swift in Sources */,
 				A962A6B529BA461D00634471 /* Tab.swift in Sources */,
 				A9EC632229BB8F75005F0A0E /* NavigationBar.swift in Sources */,
 				A9F47FF429B8A0CF006D5CF4 /* Styles.swift in Sources */,
