@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A931A64529BA5984004765D9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931A64429BA5984004765D9 /* HomeView.swift */; };
 		A934763C29BF88D800A47A3F /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = A934763B29BF88D800A47A3F /* Course.swift */; };
+		A953C79229C1D9D800CF0C10 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A953C79129C1D9D800CF0C10 /* Model.swift */; };
 		A957576029C0894F00C8CAAE /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A957575F29C0894F00C8CAAE /* MatchedView.swift */; };
 		A962A6B329BA40EB00634471 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A962A6B229BA40EB00634471 /* TabBar.swift */; };
 		A962A6B529BA461D00634471 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A962A6B429BA461D00634471 /* Tab.swift */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		A931A64429BA5984004765D9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A934763B29BF88D800A47A3F /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
+		A953C79129C1D9D800CF0C10 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A957575F29C0894F00C8CAAE /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
 		A962A6B229BA40EB00634471 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		A962A6B429BA461D00634471 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				A962A6B429BA461D00634471 /* Tab.swift */,
 				A9F8E01829BB95C500EC673D /* PreferenceKeys.swift */,
 				A934763B29BF88D800A47A3F /* Course.swift */,
+				A953C79129C1D9D800CF0C10 /* Model.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				A9EC632029BB8DCC005F0A0E /* FeaturedItem.swift in Sources */,
 				A9A014E829C0C1FF00AA201A /* Animations.swift in Sources */,
 				A9F8E01929BB95C500EC673D /* PreferenceKeys.swift in Sources */,
+				A953C79229C1D9D800CF0C10 /* Model.swift in Sources */,
 				A9F47FE629B88321006D5CF4 /* DesignCodeiOS15V2App.swift in Sources */,
 				A9F8E01B29BB9A4B00EC673D /* AnimatableFontModifier.swift in Sources */,
 			);
