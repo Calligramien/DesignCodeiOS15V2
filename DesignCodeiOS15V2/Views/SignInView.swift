@@ -1,5 +1,5 @@
 //
-//  SignUpView.swift
+//  SignInView.swift
 //  DesignCodeiOS15V2
 //
 //  Created by Damien Gautier on 16/03/2023.
@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-struct SignUpView: View {
-    
+struct SignInView: View {
     enum Field: Hashable {
         case email
         case password
@@ -25,7 +24,7 @@ struct SignUpView: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Sign up")
+            Text("Sign in")
                 .font(.largeTitle).bold()
             
             Text("Access 120+ hours of courses, tutorials and livestreams")
@@ -58,7 +57,7 @@ struct SignUpView: View {
                 }
             
             Button { } label: {
-                Text("Create an account")
+                Text("Sign in")
                     .frame(maxWidth: .infinity)
             }
             .font(.headline)
@@ -68,19 +67,16 @@ struct SignUpView: View {
             .controlSize(.large)
             
             Group {
-                Text("By clicking on ")
-                + Text("_Create an account_").foregroundColor(.primary.opacity(0.7))
-                + Text(", you agree to our **Terms of Service** and [Privacy Policy](https://designcode.io)")
                 
                 Divider()
                 
                 HStack {
-                    Text("Already have an account?")
+                    Text("No account yet?")
                     
                     Button {
-                        model.selectedModal = .signIn
+                        model.selectedModal = .SignUp
                     } label: {
-                        Text("**Sign in**")
+                        Text("**Sign up**")
                     }
                 }
             }
@@ -125,10 +121,10 @@ struct SignUpView: View {
     }
 }
 
-struct SignUpView_Previews: PreviewProvider {
+struct SignInView_Previews: PreviewProvider {
     static var previews: some View {
         ZStack {
-            SignUpView()
+            SignInView()
                 .environmentObject(Model())
         }
     }

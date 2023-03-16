@@ -14,6 +14,8 @@
 		A957576029C0894F00C8CAAE /* MatchedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A957575F29C0894F00C8CAAE /* MatchedView.swift */; };
 		A962A6B329BA40EB00634471 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A962A6B229BA40EB00634471 /* TabBar.swift */; };
 		A962A6B529BA461D00634471 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A962A6B429BA461D00634471 /* Tab.swift */; };
+		A96FF8FB29C387FC007A230D /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96FF8FA29C387FC007A230D /* ModalView.swift */; };
+		A96FF8FD29C38877007A230D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96FF8FC29C38877007A230D /* SignInView.swift */; };
 		A9A014E429C0996300AA201A /* CourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A014E329C0996300AA201A /* CourseItem.swift */; };
 		A9A014E629C09A8900AA201A /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A014E529C09A8900AA201A /* CourseView.swift */; };
 		A9A014E829C0C1FF00AA201A /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A014E729C0C1FF00AA201A /* Animations.swift */; };
@@ -43,6 +45,8 @@
 		A957575F29C0894F00C8CAAE /* MatchedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedView.swift; sourceTree = "<group>"; };
 		A962A6B229BA40EB00634471 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		A962A6B429BA461D00634471 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		A96FF8FA29C387FC007A230D /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		A96FF8FC29C38877007A230D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		A9A014E329C0996300AA201A /* CourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseItem.swift; sourceTree = "<group>"; };
 		A9A014E529C09A8900AA201A /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
 		A9A014E729C0C1FF00AA201A /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
@@ -95,6 +99,8 @@
 				A9A014E529C09A8900AA201A /* CourseView.swift */,
 				A9C1906829C32A2900AF24E2 /* SearchView.swift */,
 				A9C1906C29C340AF00AF24E2 /* SignUpView.swift */,
+				A96FF8FC29C38877007A230D /* SignInView.swift */,
+				A96FF8FA29C387FC007A230D /* ModalView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -255,6 +261,7 @@
 				A9EC632229BB8F75005F0A0E /* NavigationBar.swift in Sources */,
 				A9C1906F29C346DD00AF24E2 /* AngularButtonStyle.swift in Sources */,
 				A9F47FF429B8A0CF006D5CF4 /* Styles.swift in Sources */,
+				A96FF8FD29C38877007A230D /* SignInView.swift in Sources */,
 				A9A8ABAA29B9F8E1008ED3D2 /* BlobView.swift in Sources */,
 				A934763C29BF88D800A47A3F /* Course.swift in Sources */,
 				A9F47FE829B88321006D5CF4 /* ContentView.swift in Sources */,
@@ -267,6 +274,7 @@
 				A953C79229C1D9D800CF0C10 /* Model.swift in Sources */,
 				A9F47FE629B88321006D5CF4 /* DesignCodeiOS15V2App.swift in Sources */,
 				A9F8E01B29BB9A4B00EC673D /* AnimatableFontModifier.swift in Sources */,
+				A96FF8FB29C387FC007A230D /* ModalView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
