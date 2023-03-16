@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A930A5A829C37E3200C3A2D4 /* InputStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A930A5A729C37E3200C3A2D4 /* InputStyle.swift */; };
 		A931A64529BA5984004765D9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A931A64429BA5984004765D9 /* HomeView.swift */; };
 		A934763C29BF88D800A47A3F /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = A934763B29BF88D800A47A3F /* Course.swift */; };
 		A953C79229C1D9D800CF0C10 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A953C79129C1D9D800CF0C10 /* Model.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A930A5A729C37E3200C3A2D4 /* InputStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputStyle.swift; sourceTree = "<group>"; };
 		A931A64429BA5984004765D9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A934763B29BF88D800A47A3F /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		A953C79129C1D9D800CF0C10 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 				A9F8E01A29BB9A4B00EC673D /* AnimatableFontModifier.swift */,
 				A9A014E729C0C1FF00AA201A /* Animations.swift */,
 				A9C1906E29C346DD00AF24E2 /* AngularButtonStyle.swift */,
+				A930A5A729C37E3200C3A2D4 /* InputStyle.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				A9C1906D29C340AF00AF24E2 /* SignUpView.swift in Sources */,
 				A9A014E829C0C1FF00AA201A /* Animations.swift in Sources */,
 				A9F8E01929BB95C500EC673D /* PreferenceKeys.swift in Sources */,
+				A930A5A829C37E3200C3A2D4 /* InputStyle.swift in Sources */,
 				A953C79229C1D9D800CF0C10 /* Model.swift in Sources */,
 				A9F47FE629B88321006D5CF4 /* DesignCodeiOS15V2App.swift in Sources */,
 				A9F8E01B29BB9A4B00EC673D /* AnimatableFontModifier.swift in Sources */,
