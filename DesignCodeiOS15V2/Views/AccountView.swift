@@ -11,6 +11,7 @@ struct AccountView: View {
     
     @State var isDeleted = false
     @State var isPinned = false
+    @Environment(\.dismiss) var dismiss
     
     var body: some View {
         NavigationView {
@@ -25,6 +26,11 @@ struct AccountView: View {
             .tint(.primary)
             .listStyle(.insetGrouped)
             .navigationTitle("Account")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: { dismiss.callAsFunction() }, label: { Text("Done").bold() })
+                }
+            }
         }
     }
     
