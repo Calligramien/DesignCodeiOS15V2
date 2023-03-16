@@ -89,7 +89,7 @@ struct SearchView: View {
                     }
                     .padding(.vertical, 4)
                     .listRowSeparator(.hidden)
-            }
+                }
             }
         }
     }
