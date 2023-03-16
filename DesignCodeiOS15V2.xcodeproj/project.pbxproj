@@ -98,9 +98,7 @@
 				A957575F29C0894F00C8CAAE /* MatchedView.swift */,
 				A9A014E529C09A8900AA201A /* CourseView.swift */,
 				A9C1906829C32A2900AF24E2 /* SearchView.swift */,
-				A9C1906C29C340AF00AF24E2 /* SignUpView.swift */,
-				A96FF8FC29C38877007A230D /* SignInView.swift */,
-				A96FF8FA29C387FC007A230D /* ModalView.swift */,
+				A96FF8FE29C38F12007A230D /* Modals */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -138,6 +136,16 @@
 				A930A5A729C37E3200C3A2D4 /* InputStyle.swift */,
 			);
 			path = Styles;
+			sourceTree = "<group>";
+		};
+		A96FF8FE29C38F12007A230D /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				A9C1906C29C340AF00AF24E2 /* SignUpView.swift */,
+				A96FF8FC29C38877007A230D /* SignInView.swift */,
+				A96FF8FA29C387FC007A230D /* ModalView.swift */,
+			);
+			path = Modals;
 			sourceTree = "<group>";
 		};
 		A9F47FD929B88321006D5CF4 = {
