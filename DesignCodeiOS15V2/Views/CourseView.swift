@@ -177,18 +177,18 @@ struct CourseView: View {
     var drag: some Gesture {
         DragGesture(minimumDistance: 30, coordinateSpace: .local)
             .onChanged { value in
-            guard value.translation.width > 0 else { return }
-            
-            if value.startLocation.x < 100 {
-                withAnimation(.closeCard) {
-                    viewState = value.translation
+                guard value.translation.width > 0 else { return }
+                
+                if value.startLocation.x < 100 {
+                    withAnimation(.closeCard) {
+                        viewState = value.translation
+                    }
+                }
+                
+                if viewState.width > 120 {
+                    close()
                 }
             }
-            
-            if viewState.width > 120 {
-                close()
-            }
-        }
             .onEnded { value in
                 if viewState.width > 80 {
                     close()
