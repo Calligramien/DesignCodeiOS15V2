@@ -11,8 +11,20 @@ struct AccountView: View {
     
     @State var isDeleted = false
     @State var isPinned = false
+    @State var address: Address = Address(id: 1, country: "France")
     @Environment(\.dismiss) var dismiss
     @AppStorage("isLogged") var isLogged = false
+    
+    func fetchAddress() async {
+        do {
+            let url = URL(string: "https://random-data-api.com/api/address/random_address")!
+            let (data, _) = try await URLSession.shared.data(from: url)
+            address = try JSONDecoder().decode(Address.self, from: data)
+        } catch {
+            // Show error
+            address = Address(id: 1, country: "Error fetching")
+        }
+    }
     
     var body: some View {
         NavigationView {
@@ -30,9 +42,13 @@ struct AccountView: View {
                     Text("Sign out")
                 }
                 .tint(.red)
-                
             }
-            .tint(.primary)
+            .task {
+                await fetchAddress()
+            }
+            .refreshable {
+                await fetchAddress()
+            }
             .listStyle(.insetGrouped)
             .navigationTitle("Account")
             .toolbar {
@@ -69,7 +85,7 @@ struct AccountView: View {
                 Image(systemName: "location")
                     .imageScale(.large)
                 
-                Text("France")
+                Text(address.country)
                     .foregroundColor(.secondary)
             }
         }
