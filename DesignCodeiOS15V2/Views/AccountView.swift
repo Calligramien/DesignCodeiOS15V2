@@ -14,6 +14,7 @@ struct AccountView: View {
     @State var address: Address = Address(id: 1, country: "France")
     @Environment(\.dismiss) var dismiss
     @AppStorage("isLogged") var isLogged = false
+    @AppStorage("isLiteMode") var isLiteMode = true
     @ObservedObject var coinModel = CoinModel()
     
     func fetchAddress() async {
@@ -34,6 +35,12 @@ struct AccountView: View {
                 
                 menu
                 
+                Section {
+                    Toggle(isOn: $isLiteMode) {
+                        Label("Lite Mode", systemImage: isLiteMode ? "tortoise" : "hare")
+                    }
+                }
+                
                 links
                 
                 coins
@@ -46,6 +53,7 @@ struct AccountView: View {
                 }
                 .tint(.red)
             }
+            .accentColor(.primary)
             .task {
                 await fetchAddress()
                 await coinModel.fetchCoins()
