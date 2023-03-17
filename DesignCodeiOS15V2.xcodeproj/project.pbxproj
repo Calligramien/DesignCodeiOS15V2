@@ -26,6 +26,9 @@
 		A9AFD25129C4D503006A7FE8 /* CourseSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFD25029C4D503006A7FE8 /* CourseSection.swift */; };
 		A9AFD25329C4D585006A7FE8 /* SectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFD25229C4D585006A7FE8 /* SectionRow.swift */; };
 		A9AFD25529C4D747006A7FE8 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFD25429C4D747006A7FE8 /* SectionView.swift */; };
+		A9AFD25729C4DCF1006A7FE8 /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFD25629C4DCF1006A7FE8 /* PlayView.swift */; };
+		A9AFD25929C4DFDF006A7FE8 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFD25829C4DFDF006A7FE8 /* ExploreView.swift */; };
+		A9AFD25B29C4E106006A7FE8 /* SmallCourseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AFD25A29C4E106006A7FE8 /* SmallCourseItem.swift */; };
 		A9C1906929C32A2900AF24E2 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C1906829C32A2900AF24E2 /* SearchView.swift */; };
 		A9C1906B29C3369300AF24E2 /* Suggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C1906A29C3369300AF24E2 /* Suggestion.swift */; };
 		A9C1906D29C340AF00AF24E2 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C1906C29C340AF00AF24E2 /* SignUpView.swift */; };
@@ -64,6 +67,9 @@
 		A9AFD25029C4D503006A7FE8 /* CourseSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseSection.swift; sourceTree = "<group>"; };
 		A9AFD25229C4D585006A7FE8 /* SectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionRow.swift; sourceTree = "<group>"; };
 		A9AFD25429C4D747006A7FE8 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		A9AFD25629C4DCF1006A7FE8 /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
+		A9AFD25829C4DFDF006A7FE8 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		A9AFD25A29C4E106006A7FE8 /* SmallCourseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmallCourseItem.swift; sourceTree = "<group>"; };
 		A9C1906829C32A2900AF24E2 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		A9C1906A29C3369300AF24E2 /* Suggestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suggestion.swift; sourceTree = "<group>"; };
 		A9C1906C29C340AF00AF24E2 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
@@ -108,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				A931A64429BA5984004765D9 /* HomeView.swift */,
+				A9AFD25829C4DFDF006A7FE8 /* ExploreView.swift */,
 				A9A8ABA529B9D95E008ED3D2 /* AccountView.swift */,
 				A957575F29C0894F00C8CAAE /* MatchedView.swift */,
 				A9A014E529C09A8900AA201A /* CourseView.swift */,
@@ -128,6 +135,8 @@
 				A9DFF04829C47BD4004986D2 /* AvatarView.swift */,
 				A9AFD24E29C4D37E006A7FE8 /* CircularView.swift */,
 				A9AFD25229C4D585006A7FE8 /* SectionRow.swift */,
+				A9AFD25629C4DCF1006A7FE8 /* PlayView.swift */,
+				A9AFD25A29C4E106006A7FE8 /* SmallCourseItem.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -282,6 +291,7 @@
 				A931A64529BA5984004765D9 /* HomeView.swift in Sources */,
 				A9AFD25529C4D747006A7FE8 /* SectionView.swift in Sources */,
 				A9A8ABA629B9D95E008ED3D2 /* AccountView.swift in Sources */,
+				A9AFD25729C4DCF1006A7FE8 /* PlayView.swift in Sources */,
 				A9A014E629C09A8900AA201A /* CourseView.swift in Sources */,
 				A9A8ABA829B9F3CC008ED3D2 /* HexagonView.swift in Sources */,
 				A9C1906B29C3369300AF24E2 /* Suggestion.swift in Sources */,
@@ -291,12 +301,14 @@
 				A957576029C0894F00C8CAAE /* MatchedView.swift in Sources */,
 				A962A6B529BA461D00634471 /* Tab.swift in Sources */,
 				A9EC632229BB8F75005F0A0E /* NavigationBar.swift in Sources */,
+				A9AFD25929C4DFDF006A7FE8 /* ExploreView.swift in Sources */,
 				A9C1906F29C346DD00AF24E2 /* AngularButtonStyle.swift in Sources */,
 				A9F47FF429B8A0CF006D5CF4 /* Styles.swift in Sources */,
 				A96FF8FD29C38877007A230D /* SignInView.swift in Sources */,
 				A9AFD24F29C4D37E006A7FE8 /* CircularView.swift in Sources */,
 				A9AFD25129C4D503006A7FE8 /* CourseSection.swift in Sources */,
 				A9DFF04D29C48928004986D2 /* Coin.swift in Sources */,
+				A9AFD25B29C4E106006A7FE8 /* SmallCourseItem.swift in Sources */,
 				A9A8ABAA29B9F8E1008ED3D2 /* BlobView.swift in Sources */,
 				A934763C29BF88D800A47A3F /* Course.swift in Sources */,
 				A9F47FE829B88321006D5CF4 /* ContentView.swift in Sources */,
