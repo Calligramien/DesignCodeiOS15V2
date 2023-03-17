@@ -28,6 +28,7 @@
 		A9C1906F29C346DD00AF24E2 /* AngularButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C1906E29C346DD00AF24E2 /* AngularButtonStyle.swift */; };
 		A9DFF04929C47BD4004986D2 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFF04829C47BD4004986D2 /* AvatarView.swift */; };
 		A9DFF04B29C486B8004986D2 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFF04A29C486B8004986D2 /* Address.swift */; };
+		A9DFF04D29C48928004986D2 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DFF04C29C48928004986D2 /* Coin.swift */; };
 		A9EC632029BB8DCC005F0A0E /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC631F29BB8DCC005F0A0E /* FeaturedItem.swift */; };
 		A9EC632229BB8F75005F0A0E /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC632129BB8F75005F0A0E /* NavigationBar.swift */; };
 		A9F47FE629B88321006D5CF4 /* DesignCodeiOS15V2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F47FE529B88321006D5CF4 /* DesignCodeiOS15V2App.swift */; };
@@ -61,6 +62,7 @@
 		A9C1906E29C346DD00AF24E2 /* AngularButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngularButtonStyle.swift; sourceTree = "<group>"; };
 		A9DFF04829C47BD4004986D2 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
 		A9DFF04A29C486B8004986D2 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		A9DFF04C29C48928004986D2 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
 		A9EC631F29BB8DCC005F0A0E /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
 		A9EC632129BB8F75005F0A0E /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		A9F47FE229B88321006D5CF4 /* DesignCodeiOS15V2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeiOS15V2.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -128,6 +130,7 @@
 				A953C79129C1D9D800CF0C10 /* Model.swift */,
 				A9C1906A29C3369300AF24E2 /* Suggestion.swift */,
 				A9DFF04A29C486B8004986D2 /* Address.swift */,
+				A9DFF04C29C48928004986D2 /* Coin.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				A9C1906F29C346DD00AF24E2 /* AngularButtonStyle.swift in Sources */,
 				A9F47FF429B8A0CF006D5CF4 /* Styles.swift in Sources */,
 				A96FF8FD29C38877007A230D /* SignInView.swift in Sources */,
+				A9DFF04D29C48928004986D2 /* Coin.swift in Sources */,
 				A9A8ABAA29B9F8E1008ED3D2 /* BlobView.swift in Sources */,
 				A934763C29BF88D800A47A3F /* Course.swift in Sources */,
 				A9F47FE829B88321006D5CF4 /* ContentView.swift in Sources */,
