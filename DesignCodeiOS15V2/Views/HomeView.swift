@@ -17,6 +17,7 @@ struct HomeView: View {
     @State var showCourse = false
     @State var selectedIndex = 0
     @EnvironmentObject var model: Model
+    @AppStorage("isLiteMode") var isLiteMode = true
     
     var body: some View {
         ZStack {
@@ -103,7 +104,7 @@ struct HomeView: View {
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 40)
                         .rotation3DEffect(.degrees(minX / -10), axis: (x: 0, y: 1, z: 0))
-                        .shadow(color: Color("Shadow").opacity(0.3), radius: 10, x: 0, y: 10)
+                        .shadow(color: Color("Shadow").opacity(isLiteMode ? 0 : 0.3), radius: 10, x: 0, y: 10)
                         .blur(radius: abs(minX / 40))
                         .overlay(
                             Image(course.image)
