@@ -26,7 +26,6 @@ struct FeaturedItem: View {
                 .background(Color(UIColor.systemBackground).opacity(0.1), in: RoundedRectangle(cornerRadius: 22, style: .continuous))
                 .strokeStyle(cornerRadius: 22)
             
-            
             Text(course.title)
                 .font(.largeTitle)
                 .fontWeight(.bold)
